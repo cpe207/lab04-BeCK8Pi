@@ -15,3 +15,5 @@ console.log(arrayStringify(c2));
 console.log(arrayStringify(c3));
 
 module.exports = arrayStringify;
+
+//กฤษฏิ์ศรัล กันติ๊บ 660610740
