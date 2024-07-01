@@ -1,5 +1,9 @@
 function typeChecker(a, b) {
-  /* Your code here */
+  if(typeof a === typeof b){
+    if(typeof a === `number`) return a+b;
+    return "I LOVE YOU";
+  }
+  if(typeof a !== typeof b) return "NOT MATCHED";
 }
 
 //Test cases
